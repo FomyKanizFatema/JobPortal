@@ -12,13 +12,14 @@
   <link rel="stylesheet" href="../../bower_components/font-awesome/css/font-awesome.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="../../bower_components/Ionicons/css/ionicons.min.css">
-  <!-- jvectormap -->
-  <link rel="stylesheet" href="../../bower_components/jvectormap/jquery-jvectormap.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="../../dist/css/skins/_all-skins.min.css">
+  <!-- jvectormap -->
+  <link rel="stylesheet" href="../../bower_components/jvectormap/jquery-jvectormap.css">
+  
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -46,10 +47,7 @@
 
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
-      <!-- Sidebar toggle button-->
-      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-        <span class="sr-only">Toggle navigation</span>
-      </a>
+      
       <!-- Navbar Right Menu -->
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
@@ -329,7 +327,7 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
         <li >
-          <a href="index2.html">
+          <a href="dashboard.html">
 				<i class="fa fa-dashboard"></i> 
 				<span>Dashboard</span>            
           </a>          
@@ -344,8 +342,8 @@
             </span>
           </a>
          
-        </li> 
-		<li>
+        </li>
+			<li>
           <a href="pending.html">
 		  
             <i class="fa fa-clock-o"></i>
@@ -406,20 +404,20 @@
 				<section class="content">
 				  <!-- Info boxes -->
 				  <div class="row">
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<a href="posts.html"><div class="col-md-4 col-sm-4 col-xs-4">
 					  <div class="info-box">
 						<span class="info-box-icon bg-aqua"><i class="ion ion-ios-compose"></i></span>
 
-						<div class="info-box-content">
-						  <span class="info-box-text">Posts</span>
+						 <div class="info-box-content">
+						 <span class="info-box-text">Posts</span>
 						  <span class="info-box-number">90</span>
 						</div>
 						<!-- /.info-box-content -->
 					  </div>
 					  <!-- /.info-box -->
-					</div>
+					</div></a>
 					<!-- /.col -->
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<a href="newMembers.html"><div class="col-md-4 col-sm-4 col-xs-4">
 					  <div class="info-box">
 						<span class="info-box-icon bg-green"><i class="ion ion-ios-people-outline"></i></span>
 
@@ -430,9 +428,9 @@
 						<!-- /.info-box-content -->
 					  </div>
 					  <!-- /.info-box -->
-					</div>
+					</div></a>
 					<!-- /.col -->
-					 <div class="col-md-3 col-sm-6 col-xs-12">
+					 <a href="pending.html"><div class="col-md-4 col-sm-4 col-xs-4">
 					  <div class="info-box">
 						<span class="info-box-icon bg-yellow"><i class="fa fa-user-plus"></i></span>
 
@@ -443,25 +441,11 @@
 						<!-- /.info-box-content -->
 					  </div>
 					  <!-- /.info-box -->
-					</div>
+					</div></a>
 					<!-- /.col -->
 
-					<!-- fix for small devices only -->
-					<div class="clearfix visible-sm-block"></div>
-
-					<div class="col-md-3 col-sm-6 col-xs-12">
-					  <div class="info-box">
-						<span class="info-box-icon bg-red"><i class="fa fa-bookmark"></i></span>
-
-						<div class="info-box-content">
-						  <span class="info-box-text">Recommendations</span>
-						  <span class="info-box-number">760</span>
-						</div>
-						<!-- /.info-box-content -->
-					  </div>
-					  <!-- /.info-box -->
-					</div>
-					<!-- /.col -->
+					
+					
 					
 				  </div>
 				  <!-- /.row -->
@@ -497,11 +481,11 @@
 								<strong>New Members: 1 Jan, 2014 - 30 Jul, 2014</strong>
 							  </p>
 
-							  <div class="chart">
+							 <div class="chart">
 								<!-- Sales Chart Canvas -->
 								<canvas id="salesChart" style="height: 180px;"></canvas>
 							  </div>
-							  <!-- /.chart-responsive -->
+                  	  <!-- /.chart-responsive -->
 							</div>
 							<!-- /.col -->
 							<div class="col-md-4">
@@ -625,32 +609,32 @@
 			  <!-- sidebar menu: : style can be found in sidebar.less -->
 			  <ul class="sidebar-menu" data-widget="tree">
 				<li class="header">Currently Available</li>
-				<li class="active">
-				  <a href="index2.html">
+				<li >
+				  <a href="#">
 						<i class="fa fa-user"></i> <span>Musabbir Islam Rafi</span><i class="fa fa-circle text-success"></i>             
 				  </a>          
 				</li>
 				
-				<li class="active">
-				  <a href="index2.html">
+				<li >
+				  <a href="#">
 						<i class="fa fa-user"></i> <span>Ashik Mahmud</span> <i class="fa fa-circle text-success"></i>            
 				  </a>          
 				</li>
 				
-				<li class="active">
-				  <a href="index2.html">
+				<li >
+				  <a href="#">
 						<i class="fa fa-user"></i> <span>Saif Islam</span> <i class="fa fa-circle text-success"></i>           
 				  </a>          
 				</li>
 				
-				<li class="active">
-				  <a href="index2.html">
+				<li >
+				  <a href="#">
 						<i class="fa fa-user"></i> <span>Mamun Toufiqul Haque</span> <i class="fa fa-circle text-success"></i>             
 				  </a>          
 				</li>
 				
-				<li class="active">
-				  <a href="index2.html">
+				<li >
+				  <a href="#">
 						<i class="fa fa-user"></i> <span>Zayed News</span> <i class="fa fa-circle text-success"></i>            
 				  </a>          
 				</li>
@@ -890,5 +874,6 @@
 <script src="../../dist/js/dashboard2.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
+
 </body>
 </html>
